@@ -120,7 +120,7 @@ public class RadioAudioService extends Service implements PacketHandler {
 
     // === USB Device Matching ===
     private static final int[] ESP32_VENDOR_IDS = {4292, 6790};
-    private static final int[] ESP32_PRODUCT_IDS = {60000, 29987};
+    private static final int[] ESP32_PRODUCT_IDS = {60000, 29986}; //bi4wms change from 29987 to 29986
 
     // === Audio Constants ===
     public static final int AUDIO_SAMPLE_RATE = 48000;
