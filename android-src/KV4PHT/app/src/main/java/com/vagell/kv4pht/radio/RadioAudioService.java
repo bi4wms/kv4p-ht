@@ -896,7 +896,7 @@ public class RadioAudioService extends Service implements PacketHandler {
                 return true;
             }
         }
-        return false;
+        return true; //bi4wms
     }
 
     /**
